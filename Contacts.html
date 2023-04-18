@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shabnam Hoss | Web Designer</title>
+  </head>
+
+  <body>  
+    <nav class="header">
+        <h1>Shabnam Hoss</h1>
+        <ul class="navigation">
+          <li><a href="About.html"  target="_blank" class="nav-link">About</a></li>
+          <li><a href="Skills.html"  target="_blank" class="nav-link">Skills</a></li>
+          <li><span class="active-link">Contacts</span></li>
+        </ul>
+    </nav>
+
+    <section class="contact" id="contact">
+      <h2>Don't Be A Stranger!</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xbjepono" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav class="nav-footer" >
+        <ul>
+            <li><img
+              src="images/linkedin.png" class="socicon"
+              /><a href="https://www.linkedin.com/in/shabnam-hoss" target="_blank" class="nav-link">Linkedin
+              </a></li>
+            <li><img
+              src="images/stackoverflow.png" class="socicon"
+              /><a href="https://stackoverflow.com/users/21657933/shabnam-hoss" target="_blank" class="nav-link">Stack Overflow</a></li>
+            <li><img
+              src="images/github.webp" class="socicon"
+              /><a href="https://github.com/shabnamHoss" target="_blank" class="nav-link">Github</a></li>
+            
+        </ul>
+        <p class="copy">
+        Built by Shabnam Hoss &copy; 2023 - All Right Reserved.
+        </p>
+      </nav>
+    </footer>
+
+  </body>
+</html>
