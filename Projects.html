@@ -21,19 +21,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
-
     <title>Shabnam Hoss | Web Designer</title>
   </head>
 
   <body>  
     <nav class="header">
-        <h1> <img
-          src="images/logo-small.png" class = "header-pic"
-          />Shabnam Hoss</h1>
+        <h1>Shabnam Hoss</h1>
         <ul class="navigation">
-            <li><span class="active-link">About</span></li>
+            <li><a href="About.html"  target="_blank" class="nav-link">About</a></li>
             <li><a href="Skills.html"  target="_blank" class="nav-link">Skills</a></li>
-            <li><a href="Projects.html"  target="_blank" class="nav-link">Projects</a></li>
+            <li><span class="active-link">Projects</span></li>
             <li><a href="Contacts.html"  target="_blank" class="nav-link">Contact</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
@@ -41,32 +38,56 @@
         </button>
     </nav>
 
-    <section class="hero" id="about">
+
+<section class="projects" id="projects">
+    <h2 class="projects-title">My Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
         <img
-          src="images/shabnam.png"
-          alt="Shabnam Hoss"
+          src="images/nashville.jpeg"
+          alt="Nashville"
           loading="lazy"
-          class="hero-img"
+          class="project-pic"
         />
-        <div class="about-me animate__animated animate__shakeX">
-          <h2>About Me</h2>
-          <p >
-            As a fresh, new web developer, I bring a unique blend of creativity, passion, and work ethic to the field of web development.
-          </p>
-        </div>
-    </section>
-  <section class="more-about">
-    <h2>More About Me</h2>
-    <p>
-        Shabnam Hoss is a detail-oriented web designer from Nashville, Tennessee, currently studying Web Design and Development at the University of Denver. She brings a fresh and innovative perspective to her projects, ensuring that every aspect is perfectly executed.
-    </p>
-    <p>
-        Shabnam is driven by her desire to create exceptional websites that not only look great but also provide a seamless user experience. Her dedication and hard work are evident in the quality of her work, and she is always striving to improve her craft.
-    </p>
-    <p>
-        As she continues to pursue her career in web development, Shabnam is sure to make a significant impact in the industry. Her talent, dedication, and passion for her work make her a valuable asset to any team or project.
-    </p>
+        <h3 class="project-title">Nashville</h3>
+        <p class="project-details">
+            This website is a tourist guide for Nashville, the music city of the United States.
+            It provides information about flights, hotels, attractions and sights.
+        </p>
+        <a href="https://github.com/shabnamHoss/nashville" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="images/taekwondo.jpeg"
+          alt="Taekowando"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Taekowando</h3>
+        <p class="project-details">
+            This website provides information about a client who practices martial arts
+            and shares her goals and knowledge about Taekwondo.
+        </p>
+        <a href="https://github.com/shabnamHoss/hobby-taekwondo" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="images/dog.jpeg"
+          alt="Dog"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Dog
+        </h3>
+        <p class="project-details">
+            This website provides information about different dog breeds, including their photos,
+            history, personality, appearance and care needs.
+        </p>
+        <a href="https://github.com/shabnamHoss/Dogs-world" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
   </section>
+
   <footer>
     <nav class="nav-footer" >
       <ul>
@@ -88,7 +109,7 @@
     </nav>
   </footer>
   <script src="app.js"></script>
-  <script
+    <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
@@ -96,5 +117,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
   </body>
 </html>

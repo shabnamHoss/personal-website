@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link
-      rel="stylesheet"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/logo-apple.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/logo-small.png"
+    />
+    <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    
     <link rel="stylesheet" href="styles.css" />
     <title>Shabnam Hoss | Web Designer</title>
   </head>
@@ -18,8 +30,12 @@
         <ul class="navigation">
           <li><a href="About.html"  target="_blank" class="nav-link">About</a></li>
           <li><a href="Skills.html"  target="_blank" class="nav-link">Skills</a></li>
+          <li><a href="Projects.html"  target="_blank" class="nav-link">Projects</a></li>
           <li><span class="active-link">Contacts</span></li>
         </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
     </nav>
 
     <section class="contact" id="contact">
@@ -91,6 +107,14 @@
         </p>
       </nav>
     </footer>
-
+    <script src="app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
