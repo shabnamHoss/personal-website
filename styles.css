@@ -64,6 +64,15 @@ body {
   width: 55px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo img {
+ margin-right: 3px;
+}
 
 nav h1 {
   color: var(--primary-color);
