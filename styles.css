@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap') ;
 
 /* Variables */
 :root {
@@ -263,6 +263,12 @@ font-size: .8rem;
   align-items: center;
   justify-content: space-between;
 }
+
+.badge {
+  margin: 0rem 0 0;
+  
+ }
+
 .socicon {
   width: 2rem;
   height: 2rem;
@@ -275,8 +281,8 @@ font-size: .8rem;
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 202px;
+  height: 268px;
 }
 
 .projects-container {
@@ -319,6 +325,36 @@ font-size: .8rem;
 .project-img {
   width: 20px;
 }
+
+.hero-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+} 
+.hero-project img {
+  
+  width: 30.5rem;
+}
+.bio {
+  width: 27rem;
+  padding-top: 5rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+}
+
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+
 
 @media screen and (max-width: 720px) {
   /*changes reflects on screen with a width of 720px and below*/
