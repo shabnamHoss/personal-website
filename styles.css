@@ -328,7 +328,6 @@ font-size: .8rem;
 
 .hero-project {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   gap: 2.5rem;
   max-width: 86.75rem;
