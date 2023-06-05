@@ -25,7 +25,7 @@ html {
 
 /* CSS Resets */
 * {
-  margin: 0;
+ margin: 0; 
   padding: 0;
   box-sizing: border-box;
 }
@@ -336,22 +336,22 @@ font-size: .8rem;
 } 
 .hero-project img {
   padding-top: 4rem;
-  width: 42.5rem;
+  width: 35.5rem;
 }
 
 .bio {
-  width: 42.5rem;
+  width: 35.5rem;
   padding-top: 4rem;
   border-radius: 6px;
 }
 
-.bio h1 {
-  margin-bottom: var(--bottom-margin);
+.bio h2 {
+  margin-bottom: 1.2rem;
 }
 
 .bio p {
   line-height: var(--line-height);
-  padding: 0.3rem 0;
+  padding: 0.6rem 0;
 }
 
 
@@ -394,7 +394,7 @@ font-size: .8rem;
         width: 30rem;
     }
 
-  .bio {
+  .about-me {
     margin-top: -7rem;
     width: 20.5rem;
   }
@@ -424,6 +424,21 @@ font-size: .8rem;
   .contact-form-container {
     max-width: 23.75rem;
   }
+
+  .bio {
+    margin-top: -7rem;
+    width: 20.5rem;
+  }
+  .hero-project {
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero-project img {
+        height: 37.5rem;
+        width: 30rem;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -432,7 +447,7 @@ font-size: .8rem;
     width: 23rem;
   }
 
-  .bio {
+  .about-me {
     width: 18.3rem;
   }
 
@@ -442,6 +457,15 @@ font-size: .8rem;
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+
+  .hero-project img {
+    height: 37.5rem;
+    width: 23rem;
+  }
+
+  .bio {
+    width: 18.3rem;
   }
 } 
 
